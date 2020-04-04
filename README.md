@@ -5,7 +5,7 @@ get-routes-express gets all routes from an Express application.
 ## Installation
 
 ```shell
-$ npm install get-routes-express
+$ npm install @forgdev/get-routes-express
 ```
 
 ## Quick start
@@ -13,13 +13,13 @@ $ npm install get-routes-express
 First you need to add a reference to get-routes to your application:
 
 ```javascript
-const { getRoutes } = require('get-routes-express');
+const { getRoutes } = require('@forgdev/get-routes-express');
 ```
 
 If you use TypeScript, use the following code instead:
 
 ```typescript
-import { getRoutes } from 'get-routes-express';
+import { getRoutes } from '@forgdev/get-routes-express';
 ```
 
 Then, call the `getRoutes` function with an Express app to get a list of all registered routes:
@@ -28,7 +28,7 @@ Then, call the `getRoutes` function with an Express app to get a list of all reg
 
 ```typescript
 import express from 'express';
-import { getRoutes } from 'get-routes-express';
+import { getRoutes } from '@forgdev/get-routes-express';
 
 const app = express();
 

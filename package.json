@@ -1,5 +1,5 @@
 {
-  "name": "get-routes-express",
+  "name": "@forgdev/get-routes-express",
   "version": "1.0.0",
   "description": "Get all instanciate paths in an express instance",
   "main": "index.js",
@@ -41,31 +41,5 @@
   },
   "peerDependencies": {
     "express": "^4.17.1"
-  },
-  "test": [
-    {
-      "method": "GET",
-      "path": "/users"
-    },
-    {
-      "method": "GET",
-      "path": "/users/:id"
-    },
-    {
-      "method": "POST",
-      "path": "/users"
-    },
-    {
-      "method": "GET",
-      "path": "/roles"
-    },
-    {
-      "method": "GET",
-      "path": "/info"
-    },
-    {
-      "method": "GET",
-      "path": "/routes"
-    }
-  ]
+  }
 }
